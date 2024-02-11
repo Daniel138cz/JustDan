@@ -1,24 +1,63 @@
-This is free and unencumbered software released into the public domain.
-
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
-
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-For more information, please refer to <https://unlicense.org>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Penner - Psycholožka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .about {
+            margin-bottom: 20px;
+        }
+        .experience {
+            margin-bottom: 20px;
+        }
+        .education {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emily Penner - Psycholožka</h1>
+    </header>
+    <div class="container">
+        <section class="about">
+            <h2>O mně</h2>
+            <p><strong>Datum narození:</strong> 17. května 1975</p>
+            <p><strong>Věk:</strong> 48 let</p>
+            <p><strong>Rodné místo:</strong> Palo Alto, Kalifornie</p>
+        </section>
+        <section class="experience">
+            <h2>Profesní zkušenosti</h2>
+            <p><strong>2023 - současnost:</strong> Klinická psycholožka v klinické psychologii Dilimore.</p>
+            <p><strong>2005 - 2023:</strong> Privátní praxe, Palo Alto, Kalifornie</p>
+            <p><strong>1998 - 2005:</strong> Psychoterapeutka, Kalifornská klinika pro duševní zdraví, San Francisco</p>
+            <p><strong>1995 - 1998:</strong> Klinická psycholožka, Zdravotnické centrum Standfordské univerzity, Stanford, Kalifornie</p>
+        </section>
+        <section class="education">
+            <h2>Vzdělání</h2>
+            <p><strong>Doktorát v psychologii:</strong> Standfordská univerzita, Stanford, Kalifornie (Rok promoci: 2001)</p>
+            <p><strong>Magisterský titul v psychologii:</strong> Standfordská univerzita, Stanford, Kalifornie (Rok promoci: 1997)</p>
+        </section>
+    </div>
+</body>
+</html>
